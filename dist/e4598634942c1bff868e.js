@@ -1,0 +1,1 @@
+function loadView(e){document.location.href=`${e}.html`}function animateView(){const e=document.getElementById("content");console.log("zeee"),e&&(e.style.opacity="0",setTimeout((()=>{e.style.opacity="1"}),100))}window.loadView=loadView;
